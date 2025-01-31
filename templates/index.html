@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SMS_Bomber</title>
+        <link rel="stylesheet" href="../static/css/style.css"> 
+    </head>
+    <body>
+        <H1>Welcome to SMS bomber</H1><br>
+        <P>Here you can send random otps to mobile number</P>
+        <div class="container">
+            <div class="body-div">
+                <img src="../static/images/image.png" alt="No image">
+                <form action="/smssend" method="post">
+                    <input type="number" name="num" required placeholder="Enter Mobile Number">
+                    <input type="number" name="n" required placeholder="Enter no of msges">
+                    <button type="menu" placeholder="send">Send</button>
+                </form>
+            </div>
+        </div>
+        <p id="foot">All copyrights &copy; are reserved || @developer4811</p>
+    </body>
+</html>
